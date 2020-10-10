@@ -52,13 +52,7 @@ const SearchFuncComponent = () => {
             </Jumbotron>
         </Container>
         
-        {/* <div>
-            <ul>
-                {posts.map((item, i) => {
-                return <li key={i}>{item.strMeal}</li>
-                })}
-            </ul>
-        </div> */}
+
         <Container>
             <Row>
         {posts.map((item, i) => {
